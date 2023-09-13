@@ -5,7 +5,7 @@ touch scan.log
 echo "" > scan.log
 
 for i in ${SUB_REDE}.{1..254}; do
-	ping -c 1 ${i} # > /dev/null
+	ping -c 1 ${i}
 
 	if [[ "${?}" -lt 1 ]]; then
  		echo "UP - ${i}" >> scan.log
