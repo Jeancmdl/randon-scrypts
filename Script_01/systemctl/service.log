@@ -1,0 +1,5 @@
+[ERROR] - Service nginx is inactive, verify now!
+○ nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; disabled; preset: disabled)
+     Active: inactive (dead)
+       Docs: man:nginx(8)
